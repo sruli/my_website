@@ -1,0 +1,38 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background: url(../images/arizona_landscape.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Palatino, Georgia, serif;
+  color: rgba(18, 18, 18, 100);
+}
+
+h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.content {
+  background-color: white;
+  width: 25vw;
+  opacity: 0.6;
+  padding: 1.5rem;
+  text-align: center;
+  line-height: 1.4rem;
+  border-radius: 3px;
+  margin-top: 4vw;
+  margin-left: 5vw;
+}
+
+.links {
+  margin-top: 1.5rem;
+}
+
+.links img {
+  margin: 0 14px;
+}
