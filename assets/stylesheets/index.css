@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background: url(../images/arizona_landscape.jpg) no-repeat center center fixed;
+  background: url(../images/nachlaot_portrait.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -19,14 +19,12 @@ h3 {
 
 .content {
   background-color: white;
-  width: 25vw;
-  opacity: 0.6;
+  opacity: 0.8;
   padding: 1.5rem;
   text-align: center;
   line-height: 1.4rem;
   border-radius: 3px;
-  margin-top: 4vw;
-  margin-left: 5vw;
+  width: 60vw;
 }
 
 .links {
@@ -35,4 +33,28 @@ h3 {
 
 .links img {
   margin: 0 14px;
+}
+
+@media (orientation: portrait) {
+  .content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (orientation: landscape) {
+  body {
+    background: url(../images/arizona_landscape.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .content {
+    width: 25vw;
+    margin-top: 4vw;
+    margin-left: 5vw;
+  }
 }
